@@ -26,8 +26,16 @@ class Points:
     def vector(self, point):
         return [self.x-point.getX(), self.y-point.getY(), self.z-point.getZ()]
 
+# a, b are vectors. Returns a scalar
+def dot(a, b): 
+    return(a[0]*b[0]+a[1]*b[1]+a[2]*b[2])
+
+# def cross(a, b):
+
 
 if __name__ == "__main__":
     borb = Points(0,0,0)
-    barb = Points(0,3,4)
-    print(barb.distance(borb))    
+    barb = Points(1,2,3)
+    test1 = Points(0,0,0)
+    test2 = Points(4,-5,6)
+    print(dot(borb.vector(barb), test1.vector(test2)))    
