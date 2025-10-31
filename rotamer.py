@@ -1,3 +1,5 @@
+import Points
+
 class rotamer:
     dihedral = None # Dihedral is either an integer or float
     staggered_type = None # staggered_type is a String
