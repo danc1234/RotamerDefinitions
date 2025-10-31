@@ -1,21 +1,19 @@
-Residue	3-Letter	1-Letter	Atom 1	Atom 2	Atom 3	Atom 4
-Glycine	GLY	G	C	CA	CB	CG
-Alanine	ALA	A	C	CA	CB	CG
-Valine	VAL	V	C	CA	CB	CG
-Leucine	LEU	L	C	CA	CB	CG
-IsoLeucine	ILE	I	C	CA	CB	CG
-Threonine	THR	T	C	CA	CB	CG
-Serine	SER	S	C	CA	CB	CG
-Methionine	MET	M	C	CA	CB	CG
-Cystein	CYS	C	C	CA	CB	CG
-Proline	PRO	P	C	CA	CB	CG
-Phenylalanine	PHE	F	C	CA	CB	CG
-Tyrosine	TYR	Y	C	CA	CB	CG
-Tryptophane	TRP	W	C	CA	CB	CG
-Histidine	HIS	H	C	CA	CB	CG
-Lysine	LYS	K	C	CA	CB	CG
-Argenine	ARG	R	C	CA	CB	CG
-Aspartate	ASP	D	C	CA	CB	CG
-Glutamate	GLU	E	C	CA	CB	CG
-Asparagine	ASN	N	C	CA	CB	CG
-Glutamine	GLN	Q	C	CA	CB	CG
+Residue,3-Letter,1-Letter,Atom 1,Atom 2,Atom 3,Atom 4
+Arginine,ARG,R,C,CA,CB,CG
+Asparagine,ASN,N,C,CA,CB,CG
+Aspartatic Acid,ASP,D,C,CA,CB,CG
+Cystein,CYS,C,C,CA,CB,SG
+Glutamate,GLU,E,C,CA,CB,CG
+Glutamine,GLN,Q,C,CA,CB,CG
+Histidine,HIS,H,C,CA,CB,CG
+IsoLeucine,ILE,I,C,CA,CB,CG1
+Leucine,LEU,L,C,CA,CB,CG
+Lysine,LYS,K,C,CA,CB,CG
+Methionine,MET,M,C,CA,CB,CG
+Phenylalanine,PHE,F,C,CA,CB,CG
+Proline,PRO,P,C,CA,CB,CG
+Serine,SER,S,C,CA,CB,OG
+Threonine,THR,T,C,CA,CB,OG1
+Tryptophane,TRP,W,C,CA,CB,CG
+Tyrosine,TYR,Y,C,CA,CB,CG
+Valine,VAL,V,C,CA,CB,CG1
