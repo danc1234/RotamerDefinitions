@@ -16,13 +16,23 @@ class rotamer:
     # Modifier functions
     def setDihedral(self, angle):
         self.dihedral = angle
-    def setStaggeredType(self, staggered):
-        self.staggered_type = staggered 
-
+    def setStaggeredType(self): # These were taken from here: https://dunbrack.fccc.edu/bbdep2010/ConformationalAnalysis.php
+        if self.residue == "Pro":
+            if self.dihedral >= 0:
+                self.staggered_type = "g+"
+            else:
+                self.staggered_type = "g-"
+        else: 
+            if self.dihedral >= 0 and self.dihedral < 120:
+                self.staggered_type = "g+"
+            elif self.dihedral >= 120 and self.dihedral < -120:
+                self.staggered_type = "t"
+            elif self.dihedral >= -120 and self.dihedral < 0:
+                self.staggered_type = "g-" 
 
 if __name__ == "__main__":
-    a = rotamer("Pro")
-    a.setDihedral(50)
-    a.setStaggeredType("G+")
+    a = rotamer("Ala")
+    a.setDihedral(60)
+    a.setStaggeredType()
     print(a.getDihedral())
     print(a.getStaggeredType())
