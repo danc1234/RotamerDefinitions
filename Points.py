@@ -30,12 +30,16 @@ class Points:
 def dot(a, b): 
     return(a[0]*b[0]+a[1]*b[1]+a[2]*b[2])
 
-# def cross(a, b):
-
+# a, b are vectors. Returns a vector
+def cross(a, b):
+    x_value = a[1]*b[2]-a[2]*b[1]
+    y_value = -1*(a[0]*b[2]-b[0]*a[2])
+    z_value = a[0]*b[1]-b[0]*a[1]
+    return [x_value, y_value, z_value]
 
 if __name__ == "__main__":
     borb = Points(0,0,0)
-    barb = Points(1,2,3)
+    barb = Points(2,4,-1)
     test1 = Points(0,0,0)
-    test2 = Points(4,-5,6)
-    print(dot(borb.vector(barb), test1.vector(test2)))    
+    test2 = Points(10,25,20)
+    print(cross(borb.vector(barb), test1.vector(test2)))    
