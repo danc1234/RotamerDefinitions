@@ -2,4 +2,4 @@ Arginine,ARG,R,CB,CG,CD,NE
 Glutamate,GLU,E,CB,CG,CD,OE1
 Glutamic Acid,GLN,Q,CB,CG,CD,OE1
 Lysine,LYS,K,CB,CG,CD,CE
-Methionine,MET,M,CB-CG-SD-CE
+Methionine,MET,M,CB,CG,SD,CE
