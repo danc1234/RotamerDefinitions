@@ -1,12 +1,11 @@
-Residue,3-Letter,1-Letter,Atom 1,Atom 2,Atom 3,Atom 4
 Arginine,ARG,R,N,CA,CB,CG
 Asparagine,ASN,N,N,CA,CB,CG
-Aspartatic Acid,ASP,D,N,CA,CB,CG
-Cystein,CYS,C,N,CA,CB,SG
+Aspartic Acid,ASP,D,N,CA,CB,CG
+Cysteine,CYS,C,N,CA,CB,SG
 Glutamate,GLU,E,N,CA,CB,CG
-Glutamine,GLN,Q,N,CA,CB,CG
+Glutamic Acid,GLN,Q,N,CA,CB,CG
 Histidine,HIS,H,N,CA,CB,CG
-IsoLeucine,ILE,I,N,CA,CB,CG1
+Isoleucine,ILE,I,N,CA,CB,CG1
 Leucine,LEU,L,N,CA,CB,CG
 Lysine,LYS,K,N,CA,CB,CG
 Methionine,MET,M,N,CA,CB,CG
@@ -14,6 +13,6 @@ Phenylalanine,PHE,F,N,CA,CB,CG
 Proline,PRO,P,N,CA,CB,CG
 Serine,SER,S,N,CA,CB,OG
 Threonine,THR,T,N,CA,CB,OG1
-Tryptophane,TRP,W,N,CA,CB,CG
+Tryptophan,TRP,W,N,CA,CB,CG
 Tyrosine,TYR,Y,N,CA,CB,CG
-Valine,VAL,V,N,CA,C,CG1
+Valine,VAL,V,N,CA,CB,CG1
