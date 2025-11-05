@@ -16,3 +16,6 @@ Finished making the Points class to allow one to calculate dihedral angles given
 
 ### 11/4/25
 Finished updating .csv dihedral values.
+
+### 11/5/25
+Finished updating .csv dihedral values part II (got rid of two files).
