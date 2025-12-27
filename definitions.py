@@ -4,6 +4,7 @@ import sys
 # values → chi dihedral values
 
 # To run from the command line, type py definitions.py {AMINO_ACID HERE} {chi values here}
+# Example: py definitions.py MET 62 180 68 180
 
 def define(code, values):
     output = []
